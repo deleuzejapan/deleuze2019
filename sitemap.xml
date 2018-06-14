@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.deleuze.jp/categories/</loc>
+    <loc>https://deleuzejapan.github.io/deleuze2019/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.deleuze.jp/</loc>
+    <loc>https://deleuzejapan.github.io/deleuze2019/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.deleuze.jp/tags/</loc>
+    <loc>https://deleuzejapan.github.io/deleuze2019/tags/</loc>
     <priority>0</priority>
   </url>
   

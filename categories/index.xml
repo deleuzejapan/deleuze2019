@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Deleuze / Guattari Studies in Asia</title>
-    <link>https://www.deleuze.jp/categories/</link>
+    <link>https://deleuzejapan.github.io/deleuze2019/categories/</link>
     <description>Recent content in Categories on Deleuze / Guattari Studies in Asia</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://www.deleuze.jp/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://deleuzejapan.github.io/deleuze2019/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
