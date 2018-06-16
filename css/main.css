@@ -531,7 +531,7 @@ nav {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .about {
+  .about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what {
     margin: 0;
   }
 }
