@@ -378,11 +378,11 @@ nav {
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what {
+.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper {
   padding: 19px;
   margin: 0 -20px 0;
 }
-.accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what {
+.accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper {
   margin-top: 20px;
 }
 /* =============================================================================
@@ -532,7 +532,7 @@ nav {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what {
+  .about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper {
     margin: 0;
   }
 }
@@ -773,7 +773,7 @@ nav {
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what {
+.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper {
   border: 1px solid #e7e7e7;
   background: #fff;
   border-radius: 4px;
@@ -939,5 +939,34 @@ nav {
   line-height: 1.5;
   padding: 0.5em 0;
   font-size: 1.3em;
+  list-style: disc;
+}
+
+/* =============================================================================
+  key
+   ========================================================================== */
+.key ul, ol {
+  background: #fcfcfc;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.key ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  font-size: 1.3em;
+  list-style: disc;
+}
+
+/* =============================================================================
+  paper
+   ========================================================================== */
+.paper ul, ol {
+  background: #fcfcfc;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.paper ul li {
+  line-height: 1.3;
+  font-size: 1.4em;
   list-style: disc;
 }
