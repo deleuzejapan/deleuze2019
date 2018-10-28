@@ -971,6 +971,19 @@ nav {
   list-style: disc;
 }
 
+.sponsors ul, ol {
+  background: #fcfcfc;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.sponsors ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  font-size: 1.3em;
+  list-style: disc;
+}
+
+
 
 .dead_line {
   color: #a94442;
