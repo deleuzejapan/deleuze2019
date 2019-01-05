@@ -983,14 +983,19 @@ nav {
   list-style: disc;
 }
 
-
-
-.dead_line {
-  color: #a94442;
+.dead_line_wrapper {
+  text-align: left;
   background-color: #f2dede;
   border-color: #ebccd1;
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
   border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 15px;
+}
+
+.dead_line {
+  font-size: 3em;
+  color: #a94442;
+  text-align: right;
+  display: inline-block;
+  margin-bottom: 0px;
 }
