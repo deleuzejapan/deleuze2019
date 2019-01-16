@@ -378,11 +378,11 @@ nav {
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper {
+.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline {
   padding: 19px;
   margin: 0 -20px 0;
 }
-.accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper {
+.accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline {
   margin-top: 20px;
 }
 /* =============================================================================
@@ -532,7 +532,7 @@ nav {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper {
+  .about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline {
     margin: 0;
   }
 }
@@ -773,7 +773,7 @@ nav {
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper {
+.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline {
   border: 1px solid #e7e7e7;
   background: #fff;
   border-radius: 4px;
@@ -998,4 +998,39 @@ nav {
   text-align: right;
   display: inline-block;
   margin-bottom: 0px;
+}
+
+ul.timeline-box {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline-box:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline-box > li {
+    margin: 20px 0;
+    padding-left: 50px;
+}
+
+ul.timeline-box > li > a {
+  font-size: 14px;
+}
+ul.timeline-box > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
 }
