@@ -702,11 +702,11 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  background-image: url('../img/tokyo.jpeg');
+  background-image: url('../img/poster.jpg');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
-  /*background-position: center bottom;
-  background-size: 100% auto;*/
+  background-position: center;
+  /*background-size: 100% auto;*/
 }
 .logo-link,
 .tagline,

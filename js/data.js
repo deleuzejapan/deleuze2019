@@ -11,7 +11,7 @@ $(document).ready(function(){
           <input type="image" src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/jp/developer/203x80_a.png" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い">
           <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
         </form>`);
-  } else if(today > late) {
+  } else if(today < late) {
     $("#conf #others > li").eq(3).removeClass("disabled");
     $("#conf #others > li").eq(3).append(`<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
     <input type="hidden" name="cmd" value="_s-xclick">
@@ -37,7 +37,7 @@ $(document).ready(function(){
     <input type="image" src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/jp/developer/203x80_a.png" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い">
     <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
     </form>`);
-  } else if(today > late) {
+  } else if(today < late) {
     $("#camp #others > li").eq(3).removeClass("disabled");
     $("#camp #others > li").eq(3).append(`<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
     <input type="hidden" name="cmd" value="_s-xclick">
