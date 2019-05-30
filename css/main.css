@@ -360,11 +360,11 @@ nav {
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline, .exhibition {
+.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline, .exhibition, .timetable {
   padding: 19px;
   margin: 0 -20px 0;
 }
-.accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline, .exhibition {
+.accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline, .exhibition, .timetable {
   margin-top: 20px;
 }
 /* =============================================================================
@@ -514,7 +514,7 @@ nav {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline, .exhibition {
+  .about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline, .exhibition, .timetable {
     margin: 0;
   }
 }
@@ -755,7 +755,7 @@ nav {
 /* =============================================================================
    ABOUT
    ========================================================================== */
-.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline, .exhibition {
+.about, .accommodation, .registration, .camp, .conf, .committee, .sponsors, .contact, .tokyo, .transportation, .what, .key, .paper, .timeline, .exhibition, .timetable {
   border: 1px solid #e7e7e7;
   background: #fff;
   border-radius: 4px;
